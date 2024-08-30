@@ -1,3 +1,3 @@
 # fluigAcademy
 
-Conteúdos estudados no curso TOTVS Fluig Academy
+Conteúdos estudados nos cursos da TOTVS Fluig Academy
