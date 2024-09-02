@@ -16,7 +16,7 @@
 			<div class="panel panel-primary">
 				<div class="panel-heading">
 					<h3 class="panel-title"><i class="fluigicon fluigicon-exclamation-sign icon-md"
-							aria-hidden="true"></i> Exemplos de inputs</h3>
+							aria-hidden="true"></i> i18n.translate("exemplosInput")</h3>
 				</div>
 				<div class="panel-body">
 					<div class="row">
@@ -26,51 +26,51 @@
 								placeholder="Texto">
 						</div>
 						<div class="form-group col-md-4">
-							<label for="exemploInputEmail">Entrada de email</label>
+							<label for="exemploInputEmail">i18n.translate("exemploInputEmail")</label>
 							<input type="email" class="form-control" name="exemploInputEmail" id="exemploInputEmail"
 								placeholder="Email">
 						</div>
 						<div class="form-group col-md-4">
-							<label for="exemploInputSenha">Entrada de senha</label>
+							<label for="exemploInputSenha">i18n.translate("exemploInputSenha")</label>
 							<input type="password" class="form-control" name="exemploInputSenha" id="exemploInputSenha"
 								placeholder="Senha">
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group col-md-2">
-							<label for="exemploInputData">Entrada de data</label>
+							<label for="exemploInputData">i18n.translate("exemploInputData")</label>
 							<input type="text" class="form-control" name="exemploInputData" id="exemploInputData"
 								placeholder="00/00/0000">
 						</div>
 						<div class="form-group col-md-6">
-							<label for="exemploInputArquivo">Entrada de arquivo</label>
+							<label for="exemploInputArquivo">i18n.translate("exemploInputArquivo")</label>
 							<input type="file" name="exemploInputArquivo" id="exemploInputArquivo">
-							<p class="help-block">Exemplo de bloco para mensagem de ajuda.</p>
+							<p class="help-block" name="exemploAjuda">i18n.translate("exemploAjuda")</p>
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group col-md-2">
-							<label for="exemploInputRadio">Entrada tipo radio</label>
+							<label for="exemploInputRadio">i18n.translate("exemploEntradaRadio")</label>
 							<div class="radio">
 								<label><input type="radio" name="exemploInputRadio" id="exemploInputRadio"
-										value="radio1"> Radio 1</label>
+										value="radio1">i18n.translate("radio1")</label>
 								<label><input type="radio" name="exemploInputRadio" id="exemploInputRadio"
-										value="radio2"> Radio 2</label>
+										value="radio2">i18n.translate("radio2")</label>
 							</div>
 						</div>
 						<div class="form-group col-md-6">
-							<label>Entrada tipo checkbox</label>
+							<label>i18n.translate("exemploEntradaCheckbox")</label>
 							<div class="checkbox">
-								<label><input type="checkbox" name="checkbox1">Checkbox 1</label>
-								<label><input type="checkbox" name="checkbox2">Checkbox 2</label>
-								<label><input type="checkbox" name="checkbox3">Checkbox 3</label>
-								<label><input type="checkbox" name="checkbox4">Checkbox 4</label>
+								<label><input type="checkbox" name="checkbox1">i18n.translate("checkbox1")</label>
+								<label><input type="checkbox" name="checkbox2">i18n.translate("checkbox2")</label>
+								<label><input type="checkbox" name="checkbox3">i18n.translate("checkbox3")</label>
+								<label><input type="checkbox" name="checkbox4">i18n.translate("checkbox4")</label>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group col-md-12">
-							<label for="informacoes">Informações Adicionais </label>
+							<label for="informacoes">i18n.translate("informacoes")</label>
 							<textarea rows="5" name="informacoes" id="informacoes" class="form-control"></textarea>
 						</div>
 					</div>
@@ -81,32 +81,32 @@
 			<div class="panel panel-primary">
 				<div class="panel-heading">
 					<h3 class="panel-title"><i class="fluigicon fluigicon-map-marker icon-md" aria-hidden="true"></i>
-						Exemplo de entrada de endereço</h3>
+						i18n.translate("exemploEntradaEndereco")</h3>
 				</div>
 				<div class="panel-body">
 					<div class="row">
 						<div class="form-group col-md-2">
-							<label for="cep">CEP</label>
+							<label for="cep">i18n.translate("cep")</label>
 							<input type="text" name="cep" id="cep" class="form-control" mask="00000-000">
 						</div>
 						<div class="form-group col-md-3">
-							<label for="logradouro">Logradouro</label>
+							<label for="logradouro">i18n.translate("logradouro")</label>
 							<input type="text" name="logradouro" id="logradouro" class="form-control">
 						</div>
 						<div class="form-group col-md-1">
-							<label for="numero">Número</label>
+							<label for="numero">i18n.translate("numero")</label>
 							<input type="text" name="numero" id="numero" class="form-control">
 						</div>
 						<div class="form-group col-md-2">
-							<label for="bairro">Bairro</label>
+							<label for="bairro">i18n.translate("bairro")</label>
 							<input type="text" name="bairro" id="bairro" class="form-control">
 						</div>
 						<div class="form-group col-md-2">
-							<label for="cidade">Cidade</label>
+							<label for="cidade">i18n.translate("cidade")</label>
 							<input type="text" name="cidade" id="cidade" class="form-control">
 						</div>
 						<div class="form-group col-md-2">
-							<label for="estado">Estado</label>
+							<label for="estado">i18n.translate("estado")</label>
 							<input type="text" name="estado" id="estado" class="form-control">
 						</div>
 					</div>
@@ -116,13 +116,13 @@
 			<!-- Exemplo de entrada de valores numéricos -->
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h3 class="panel-title"><i class="fluigicon fluigicon-money icon-md" aria-hidden="true"></i> Exemplo
-						de entrada de valores numéricos</h3>
+					<h3 class="panel-title"><i class="fluigicon fluigicon-money icon-md" aria-hidden="true"></i> 
+						i18n.translate("exemploEntradaNumerico")</h3>
 				</div>
 				<div class="panel-body">
 					<div class="row">
 						<div class="form-group col-md-2">
-							<label for="valor">Valor</label>
+							<label for="valor">i18n.translate("valor")</label>
 							<input type="number" name="valor" id="valor" class="form-control">
 						</div>
 					</div>
