@@ -11,31 +11,130 @@
 <body>
 	<div class="fluig-style-guide">
 		<form name="form" role="form">
-			<div class="form-group col-md-4">
-				<label for="exemploInputText">Entrada de texto</label>
-				<input type="text" class="form-control" name="exemploInputText" id="exemploInputText" placeholder="Texto">
+
+			<!-- Exemplos de inputs -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title"><i class="fluigicon fluigicon-exclamation-sign icon-md"
+							aria-hidden="true"></i> Exemplos de inputs</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="form-group col-md-4">
+							<label for="exemploInputText">i18n.translate("exemploInputText")</label>
+							<input type="text" class="form-control" name="exemploInputText" id="exemploInputText"
+								placeholder="Texto">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="exemploInputEmail">Entrada de email</label>
+							<input type="email" class="form-control" name="exemploInputEmail" id="exemploInputEmail"
+								placeholder="Email">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="exemploInputSenha">Entrada de senha</label>
+							<input type="password" class="form-control" name="exemploInputSenha" id="exemploInputSenha"
+								placeholder="Senha">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-2">
+							<label for="exemploInputData">Entrada de data</label>
+							<input type="text" class="form-control" name="exemploInputData" id="exemploInputData"
+								placeholder="00/00/0000">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="exemploInputArquivo">Entrada de arquivo</label>
+							<input type="file" name="exemploInputArquivo" id="exemploInputArquivo">
+							<p class="help-block">Exemplo de bloco para mensagem de ajuda.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-2">
+							<label for="exemploInputRadio">Entrada tipo radio</label>
+							<div class="radio">
+								<label><input type="radio" name="exemploInputRadio" id="exemploInputRadio"
+										value="radio1"> Radio 1</label>
+								<label><input type="radio" name="exemploInputRadio" id="exemploInputRadio"
+										value="radio2"> Radio 2</label>
+							</div>
+						</div>
+						<div class="form-group col-md-6">
+							<label>Entrada tipo checkbox</label>
+							<div class="checkbox">
+								<label><input type="checkbox" name="checkbox1">Checkbox 1</label>
+								<label><input type="checkbox" name="checkbox2">Checkbox 2</label>
+								<label><input type="checkbox" name="checkbox3">Checkbox 3</label>
+								<label><input type="checkbox" name="checkbox4">Checkbox 4</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-12">
+							<label for="informacoes">Informações Adicionais </label>
+							<textarea rows="5" name="informacoes" id="informacoes" class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="form-group col-md-4">
-				<label for="exemploInputEmail">Entrada de email</label>
-				<input type="email" class="form-control" name="exemploInputEmail" id="exemploInputEmail" placeholder="Email">
+
+			<!-- Exemplo de entrada de endereço -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title"><i class="fluigicon fluigicon-map-marker icon-md" aria-hidden="true"></i>
+						Exemplo de entrada de endereço</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="form-group col-md-2">
+							<label for="cep">CEP</label>
+							<input type="text" name="cep" id="cep" class="form-control" mask="00000-000">
+						</div>
+						<div class="form-group col-md-3">
+							<label for="logradouro">Logradouro</label>
+							<input type="text" name="logradouro" id="logradouro" class="form-control">
+						</div>
+						<div class="form-group col-md-1">
+							<label for="numero">Número</label>
+							<input type="text" name="numero" id="numero" class="form-control">
+						</div>
+						<div class="form-group col-md-2">
+							<label for="bairro">Bairro</label>
+							<input type="text" name="bairro" id="bairro" class="form-control">
+						</div>
+						<div class="form-group col-md-2">
+							<label for="cidade">Cidade</label>
+							<input type="text" name="cidade" id="cidade" class="form-control">
+						</div>
+						<div class="form-group col-md-2">
+							<label for="estado">Estado</label>
+							<input type="text" name="estado" id="estado" class="form-control">
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="form-group col-md-4">
-				<label for="exemploInputSenha">Entrada de senha</label>
-				<input type="password" class="form-control" name="exemploInputSenha" id="exemploInputSenha" placeholder="Senha">
+
+			<!-- Exemplo de entrada de valores numéricos -->
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title"><i class="fluigicon fluigicon-money icon-md" aria-hidden="true"></i> Exemplo
+						de entrada de valores numéricos</h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="form-group col-md-2">
+							<label for="valor">Valor</label>
+							<input type="number" name="valor" id="valor" class="form-control">
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="exemploInputArquivo">Entrada de arquivo</label>
-				<input type="file" name="exemploInputArquivo" id="exemploInputArquivo">
-				<p class="help-block">Exemplo de bloco para mensagem de ajuda.</p>
-			</div>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" name="checkbox1"> Check box 1
-				</label>
-			</div>
-			<button type="submit" class="btn btn-default">Enviar</button>
 		</form>
 	</div>
 </body>
+
+<script type="text/javascript" src="cep.js"></script>
+<script type="text/javascript">
+	var exemploInputCalendario = FLUIGC.calendar('#exemploInputData');
+</script>
 
 </html>
