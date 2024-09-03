@@ -3,44 +3,44 @@ function validateForm(form) {
     
     /* Exemplos de input */
 	if(form.getValue("exemploInputText") == "") {
-        msg += "Campo Entrada de texto é obrigatório.";
+        msg += i18n.translate("validaTexto");
     }
     if(form.getValue("exemploInputEmail") == "") {
-        msg += "Campo Entrada de email é obrigatório.";
+        msg += i18n.translate("validaEmail");
     }
     if(form.getValue("exemploInputSenha") == "") {
-        msg += "Campo Entrada de senha é obrigatório.";
+        msg += i18n.translate("validaSenha");
     }
     if(form.getValue("exemploInputData") == "") {
-        msg += "Campo Entrada de data é obrigatório.";
+        msg += i18n.translate("validaData");
     }
     if(form.getValue("exemploInputRadio") == "") {
-        msg += "Campo Entrada tipo radio não foi selecionado.";
+        msg += i18n.translate("validaRadio");
     }
     if(form.getValue("checkbox1") != "on" && form.getValue("checkbox2") != "on" && form.getValue("checkbox3") != "on" && form.getValue("checkbox4") != "on") {
-        msg += "Campo Entrada tipo checkbox não foi selecionado.";
+        msg += i18n.translate("validaCheckbox");
     }
     
     /* Endereço */
     if(form.getValue("cep") == "") {
-        msg += "Campo CEP é obrigatório.";
+        msg += i18n.translate("validaCep");
     }
     if(form.getValue("logradouro") == "") {
-        msg += "Campo Logradouro é obrigatório.";
+        msg += i18n.translate("validaLogradouro");
     }
     if(form.getValue("numero") == "") {
-        msg += "Campo Número é obrigatório.";
+        msg += i18n.translate("validaNumero");
     }
     if(form.getValue("cidade") == "") {
-        msg += "Campo Cidade é obrigatório.";
+        msg += i18n.translate("validaCidade");
     }
     if(form.getValue("estado") == "") {
-        msg += "Campo Estado é obrigatório.";
+        msg += i18n.translate("validaEstado");
     }
     
     /* Valores numéricos */
     if(form.getValue("Valor") == "") {
-        msg += "Campo Valor é obrigatório.";
+        msg += i18n.translate("validaValor");
     }
 
     /* Mensagem de aviso de campos obrigatórios não preenchidos */
